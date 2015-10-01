@@ -37,13 +37,28 @@ care that you are still using C++ best practices and exercising concepts related
 to object oriented programming. For example, you may wish to create multiple
 classes in order to better organize your code base.
 
-## Functional Requirements
+## Functional Requirements (80 points)
 
 Your submission needs to satisfy the following functional requirements:
 
- * ()
+ * **(40 points) Editor TUI:**
 
-## Non-Functional Requirements
+ * **(20 points) F1 Menu:** If the user presses the <code>F1</code> key (or
+   <code>fn-F1<code> on a Mac), then your editor needs to create a windoe in the
+   center of the terminal screen that allows the user to select from the 
+   following options:
+
+   * Open
+   * Save
+   * Save As
+   * Exit
+
+ * **(20 points) Display Errors:** If a system call issues an error, then you
+   your edtor needs to create a window in the center of the terminal screen that
+   displays that error. Whenever it makes sense to do so, your editor should 
+   prompt the user in an attempt to fix the problem. For example, if the error
+
+## Non-Functional Requirements (20 points)
 
 Your submission needs to satisfy the following non-functional requirements:
 
@@ -95,13 +110,14 @@ $ make
 $ ./editor somefile
 ```
 
-## Extra Credit Opportunity
+## Extra Credit Opportunity (10 points)
 
 You may gain some extra credit points if your submission includes the following:
 
- * **(5 points) File Menu:** test
-
- * **(5 points) Line Numbers:** test 
+ * **(10 points) Padded Line Numbers:** Your editor should include line numbers 
+   on the left side of the TUI. These should be padded so that the text from the
+   file that is open does not directly touch the numbers. If the user scrolls up
+   or down, the line numbers should be adjusted accordingly.
 
 ## Skeleton Code
 
