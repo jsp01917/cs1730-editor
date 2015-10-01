@@ -47,6 +47,12 @@ Your submission needs to satisfy the following functional requirements:
 
 Your submission needs to satisfy the following non-functional requirements:
 
+ * **Libraries:** You are allowed to use any of the C or C++ standard libraries.
+   The only third-party libraries you are allowed to use are 
+   <code>ncurses-6.0</code> and any libraries that come bundled with 
+   <code>ncurses-6.0</code>. Failure to adhere to this non-functional requirement
+   will result in an automatic 50 point deduction.
+
  * **(5 points) Documentation:** Your source code should be documented using
    comments. Inline comments may be used inside of functions. Functions 
    themselves should be documented using Javadoc-style comments. You don't need
@@ -57,7 +63,17 @@ Your submission needs to satisfy the following non-functional requirements:
    submission compiles each <code>.cpp</code> file into its own <code>.o</code>
    file. Furthermore, your <code>.o</code> files need to link into an
    executable called <code>editor</code>. This can be streamlined by a
-   properly implemented <code>Makefile</code>.
+   properly implemented <code>Makefile</code>. Furthermore, you need to
+   make sure that you are passing the following options (in addition to any
+   other options you may need) to <code>g++</code> when compiling and linking:
+
+   ```
+   -Wall -std=c++11 -pedantic-errors
+   ```
+
+   The only exception to this, is that you may also wish to use C++14 features.
+   If that is the case, then you can change the <code>-std=c++11</code> option 
+   to <code>-std=c++14</code>.
 
  * **(5 points) Makefile:** Your <code>Makefile</code> should include an 
    <code>all</code> target and a <code>clean</code> target in addition to any
