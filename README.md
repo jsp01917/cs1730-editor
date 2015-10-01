@@ -27,7 +27,7 @@ low-level file I/O and the <code>ncurses</code> library for the Text User
 Interface (TUI). This will require you to lookup things related to 
 <code>ncurses</code> and apply your knowledge of object oriented programming.
 
-![http://i.imgur.com/p2U09BP.png]
+![Editor](http://i.imgur.com/p2U09BP.png)
 
 Part of software development is being given a goal but not necessarily being 
 given instruction on all of the details needed to accomplish that goal. For 
