@@ -39,13 +39,23 @@ classes in order to better organize your code base.
 
 ## Functional Requirements
 
+Your submission needs to satisfy the following functional requirements:
+
+ * ()
+
 ## Non-Functional Requirements
+
+Your submission needs to satisfy the following non-functional requirements:
 
 ## Extra Credit Opportunity
 
-## Skeleton Code
+You may gain some extra credit points if your submission includes the following:
 
-## Project Structure
+ * **(5 points) Menu:** test
+
+ * **(5 points) Line Numbers: ** test 
+
+## Skeleton Code
 
 ## Submission Instructions
 
@@ -54,7 +64,7 @@ is on <code>nike.cs.uga.edu</code> in a directory called
 <code>LastName-FirstName-p1</code>, and, from within the parent directory, 
 execute the following command:
 
-    $ submit LastName_FirstName-p1 cs1730a
+    $ submit LastName-FirstName-p1 cs1730a
 
 It is also a good idea to email a copy to yourself. To do this, simply execute 
 the following command, replacing the email address with your email address:
