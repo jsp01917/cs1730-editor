@@ -47,13 +47,45 @@ Your submission needs to satisfy the following functional requirements:
 
 Your submission needs to satisfy the following non-functional requirements:
 
+ * **(5 points) Documentation:** Your source code should be documented using
+   comments. Inline comments may be used inside of functions. Functions 
+   themselves should be documented using Javadoc-style comments. You don't need
+   to go overboard when commenting your code. Simply include comments so that
+   someone else could potentially figure out what is going on with your code.
+
+ * **(5 points) Compiling & Linking:** You need to make sure that your 
+   submission compiles each <code>.cpp</code> file into its own <code>.o</code>
+   file. Furthermore, your <code>.o</code> files need to link into an
+   executable called <code>editor</code>. This can be streamlined by a
+   properly implemented <code>Makefile</code>.
+
+ * **(5 points) Makefile:** Your <code>Makefile</code> should include an 
+   <code>all</code> target and a <code>clean</code> target in addition to any
+   other targets it might need. Furthermore, your <code>Makefile</code> should
+   be written in such a way that is satisfies the "Compiling & Linking"
+   requirement mentioned above.
+
+ * **(5 points) Compiler Warnings & Memory Leaks:** Your submission should not
+   issue any compiler warnings or errors when compiled and linked. Furthermore,
+   when your submission is run, the <code>valgrind</code> utility should
+   indicate that there are NO memory leaks (in the first three leak reports).
+
+**NOTE:** The expectation is that the grader should be able to type in the 
+following to clean, compile, link, and run your submission:
+
+```
+$ make clean
+$ make
+$ ./editor somefile
+```
+
 ## Extra Credit Opportunity
 
 You may gain some extra credit points if your submission includes the following:
 
- * **(5 points) Menu:** test
+ * **(5 points) File Menu:** test
 
- * **(5 points) Line Numbers: ** test 
+ * **(5 points) Line Numbers:** test 
 
 ## Skeleton Code
 
