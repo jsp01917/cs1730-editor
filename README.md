@@ -68,7 +68,10 @@ Your submission needs to satisfy the following functional requirements:
      the editor when the user chooses this option, then your editor needs to ask
      the user whether or not they want to save their changes befire exiting.
 
-   Feel free to add and implement other options, if you wish.
+   Feel free to add and implement other options, if you wish. Here is an example
+   of what the menu might look like:
+
+   ![Menu](http://i.imgur.com/I0MTz8E.png)
 
  * **(20 points) Display Errors:** If a system call issues an error, then you
    your edtor needs to create a window in the center of the terminal screen that
