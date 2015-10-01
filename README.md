@@ -27,8 +27,6 @@ low-level file I/O and the <code>ncurses</code> library for the Text User
 Interface (TUI). This will require you to lookup things related to 
 <code>ncurses</code> and apply your knowledge of object oriented programming.
 
-![Editor](http://i.imgur.com/p2U09BP.png)
-
 Part of software development is being given a goal but not necessarily being 
 given instruction on all of the details needed to accomplish that goal. For 
 example, even though the <code>ncurses</code> library hasn't been covered in 
@@ -43,7 +41,11 @@ classes in order to better organize your code base.
 
 Your submission needs to satisfy the following functional requirements:
 
- * **(40 points) Editor TUI:** The main editor
+ * **(40 points) Editor TUI:** The main editor window needs to include text for
+   the menu, the title, and the name of the file currently open in the editor.
+   Here is an example of what the user interface might look like:
+
+   ![Editor](http://i.imgur.com/p2U09BP.png)
 
  * **(20 points) F1 Menu:** If the user presses the <code>F1</code> key (or
    <code>fn-F1</code> on a Mac), then your editor needs to create a window in the
