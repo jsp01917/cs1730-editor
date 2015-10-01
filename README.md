@@ -44,7 +44,7 @@ Your submission needs to satisfy the following functional requirements:
  * **(40 points) Editor TUI:**
 
  * **(20 points) F1 Menu:** If the user presses the <code>F1</code> key (or
-   <code>fn-F1<code> on a Mac), then your editor needs to create a windoe in the
+   <code>fn-F1</code> on a Mac), then your editor needs to create a windoe in the
    center of the terminal screen that allows the user to select from the 
    following options:
 
