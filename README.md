@@ -89,6 +89,42 @@ You may gain some extra credit points if your submission includes the following:
 
 ## Skeleton Code
 
+The files for this project are hosted Github using <code>git</code>. They can be
+retrieved by cloning the repository found at 
+<code>git://github.com/uga-csci-1730-cotterell/cs1730-editor.git</code>. 
+For example, you can issue the following command to clone the repository:
+
+```
+$ git clone git://github.com/uga-csci-1730-cotterell/cs1730-editor.git LastName-FirstName-p1
+```
+
+If the above command issues you any errors or warnings, then you might try the
+following command instead:
+
+```
+$ git clone https://github.com/uga-csci-1730-cotterell/cs1730-editor.git LastName-FirstName-p1
+```
+
+**NOTE:** There really isn't any skeleton code for this project. Creating your
+files is completely up to you so long as you fullfill the project requirements.
+The above command simply creates a directory for this project that includes this
+<code>README.md</code> file as well as a stub for your <code>Makefile</code>.
+
+**NOTE:** As always, I suggest developing directly on 
+<code>nike.cs.uga.edu</code>because this is where your project will be run and 
+tested. Since <code>git</code> is already installed on <code>nike</code>, you 
+can clone the project directly into your <code>nike</code> home directory using
+the command provided above.
+
+**NOTE:** If any changes are made to the project description or skeleton code, 
+they will be announced in class. In order to incorporate such changes into your 
+code, you need only do a <code>git pull</code>.
+
+**NOTE:** Also, since <code>git</code> is a decentralized version control 
+system, you will have your own local copy of the repository. This means that you
+can log your changes using commits and even revert to a previous revision if
+necessary.
+
 ## Submission Instructions
 
 You will be submitting your project via <code>nike</code>. Make sure your work 
