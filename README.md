@@ -48,15 +48,32 @@ Your submission needs to satisfy the following functional requirements:
    center of the terminal screen that allows the user to select from the 
    following options:
 
-   * Open
-   * Save
-   * Save As
-   * Exit
+   * *Open:* This option should prompt the user to enter in a filename. After
+     the user presses return/enter, your editor should attempt to open the file
+     for editing. If an unsaved file is open in the editor when the user chooses
+     this option, then your editor needs to ask the user whether or not they
+     want to save their changes before opening the other file.
+
+   * *Save:* This option should attempt to save the file currently open in the
+     editor. The mode of the file should not be changed by your editor.
+
+   * *Save As:* This option should prompt the user to enter in a new filename
+     and attempt to save the file currently open in the editor to that new
+     filename. If the file already exists, then your editor should ask the user
+     if they want to overwrite the existing file.
+
+   * *Exit:* This option should exit your editor. If an unsaved file is open in 
+     the editor when the user chooses this option, then your editor needs to ask
+     the user whether or not they want to save their changes befire exiting.
+
+   Feel free to add and implement other options, if you wish.
 
  * **(20 points) Display Errors:** If a system call issues an error, then you
    your edtor needs to create a window in the center of the terminal screen that
    displays that error. Whenever it makes sense to do so, your editor should 
-   prompt the user in an attempt to fix the problem. For example, if the error
+   prompt the user in an attempt to fix the problem. For example, if the
+   <code>open</code> system call issues an error about a file not existing, then
+   you might prompt the user to re-enter the filename.
 
 ## Non-Functional Requirements (20 points)
 
